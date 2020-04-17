@@ -7,6 +7,7 @@ COPY . ./app
 WORKDIR /app
 
 # Upgrade pip and install dependencies
+# triggering change in codepipeline
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
